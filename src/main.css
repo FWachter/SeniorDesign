@@ -1,0 +1,30 @@
+/*
+Swerve senior design team website style.css
+Author: Frederick Wachter - wachterfreddy@gmail.com
+Created: 2016-06-24
+*/
+
+body {
+	margin:0px;
+}
+
+#main_background {
+	margin:0px;
+	height:100%;
+	width:100%;
+	position:fixed;
+	background:black;
+	background-size:cover;
+}
+
+#logo_center {
+	left:50%;
+	top:50%;
+	margin-left:-150px;
+	margin-top:-50px;
+	height:100px;
+	width:300px;
+	position:fixed;
+	background:url("img/logo_white_transparent.png") no-repeat center center;
+	background-size:cover;
+}
