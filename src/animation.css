@@ -1,0 +1,84 @@
+/*
+Swerve senior design team animation style.css
+Author: Frederick Wachter - wachterfreddy@gmail.com
+Created: 2016-06-25
+*/
+
+body {
+	margin:0px;
+	background-color:rgb(25, 35, 75);
+}
+
+/* Classes */
+.center {
+	left:50%;
+	top:50%;
+	position:fixed;
+}
+
+/* Page Background */
+#animation_background {
+	margin:0px;
+	height:100%;
+	width:100%;
+	position:fixed;
+	background:black;
+	background-size:cover;
+}
+
+/* Logo */
+.logo {
+	height:100px;
+	display:inline-block;;
+}
+
+#logo {
+	margin-left:-150px;
+	margin-top:-50px;
+	height:100px;
+	width:300px;
+}
+
+.logo_bracket {
+	width:20px;
+}
+
+.logo_line {
+	width:35px;
+}
+
+.logo_words {
+	margin-left:-5px;
+	width:170px;
+}
+
+#logo_bracket_left {
+	background:url("img/logo_bracket_left_white.png") no-repeat center center;
+    background-size:contain;
+}
+
+#logo_line {
+	background:url("img/logo_line_white.png") no-repeat center center;
+    background-size:contain;
+}
+
+#logo_bracket_right {
+	background:url("img/logo_bracket_right_white.png") no-repeat center center;
+    background-size:contain;
+}
+
+#logo_words {
+	background:url("img/logo_werve_white.png") no-repeat center center;
+    background-size:contain;
+}
+
+/* Animation */
+
+.animation div {
+	top:50%;
+	left:50%;
+	margin-top:-50px;
+	position:fixed;
+}
+
+
