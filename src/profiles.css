@@ -1,0 +1,39 @@
+/*
+Swerve senior design team animation style sheet
+Author: Frederick Wachter - wachterfreddy@gmail.com
+Created: 2016-06-25
+*/
+
+body {
+	margin:0px;
+	background-color:rgb(25, 35, 75);
+}
+
+div {
+	font-size:0;
+}
+
+#profiles {
+	position:relative;
+	height:280px;
+	width:100%;
+	background-color:black;
+	text-align:center;
+}
+
+#profile_container {
+	position:absolute;
+	height:230px;
+	width:100%;
+	margin-top:25px;
+	background-color:whitesmoke;
+}
+
+.profile {
+	position:relative;
+	height:100%;
+	background-color:gray;
+	display:inline-block;
+}
+
+

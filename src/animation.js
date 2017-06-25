@@ -1,10 +1,14 @@
 /*
-Swerve senior design team animation script.css
+Swerve senior design team animation JavaScript
 Author: Frederick Wachter - wachterfreddy@gmail.com
 Created: 2016-06-25
 */
 
 animation(); // start animation
+
+var transition_type = "all 0.5s ease 0s";
+var animation_no_wait = 500;
+var animation_wait    = 1000;
 
 function animation() {
 	animationStart();
@@ -14,9 +18,9 @@ function animation() {
 			animationPart2();
 			setTimeout(function() {
 				animationPart3();
-			}, 1000);
-		}, 1000);
-	}, 1000);
+			}, animation_wait);
+		}, animation_no_wait);
+	}, animation_wait);
 }
 
 function animationStart() {
@@ -52,7 +56,7 @@ function animationPart1() {
 		"margin-top": ""
 	});
 	$(".logo").css({
-		"transition": "all 0.35s ease-out 0s"
+		"transition": transition_type
 	});
 }
 
@@ -73,9 +77,9 @@ function animationPart2() {
 }
 
 function animationPart3() {
-	$("#animation_background").css({
+	$("#animation").css({
 		"height": "70px",
-		"transition": "all 0.35s ease-out 0s"
+		"transition": transition_type
 	});
 	$(".logo").css({
 		"height": "50px"
@@ -104,6 +108,7 @@ function animationPart3() {
 }
 
 function animationEnd() {
+
 }
 
 

@@ -1,5 +1,5 @@
 /*
-Swerve senior design team animation style.css
+Swerve senior design team animation style sheet
 Author: Frederick Wachter - wachterfreddy@gmail.com
 Created: 2016-06-25
 */
@@ -11,17 +11,16 @@ body {
 
 /* Classes */
 .center {
+	position:fixed;
 	left:50%;
 	top:50%;
-	position:fixed;
 }
 
 /* Page Background */
-#animation_background {
-	margin:0px;
+#animation {
+	position:fixed;
 	height:100%;
 	width:100%;
-	position:fixed;
 	background:black;
 	background-size:cover;
 }
@@ -75,10 +74,10 @@ body {
 /* Animation */
 
 .animation div {
+	position:fixed;
 	top:50%;
 	left:50%;
 	margin-top:-50px;
-	position:fixed;
 }
 
 
