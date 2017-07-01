@@ -65,7 +65,7 @@ function animationPart2() {
 		"margin-left": "-99px"
 	});
 	$("#logo_bracket_right").css({
-		"margin-left": "118px"
+		"margin-left": "123px"
 	});
 	$("#logo_line").css({
 		"margin-left": "-83px"
