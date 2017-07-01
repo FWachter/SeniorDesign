@@ -16,8 +16,8 @@ Created: 2016-06-25
 	<meta name="author" content="Frederick Wachter"/>
 	<!--<meta name="google-site-verification" content=""/>-->
 	
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script type="text/javascript" src="/Users/Freddy/Documents/Misc/Website/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
 </head>
 
 <body>
@@ -25,13 +25,70 @@ Created: 2016-06-25
 	<!-- <header></header> -->
 	
 	<main>
-		<div id="profiles">
-			<div id="profile_container">
-				<div class="profile"></div>
-				<div class="profile"></div>
-				<div class="profile"></div>
-				<div class="profile"></div>
-				<div class="profile"></div>
+		<div class="blank"></div>
+		<section id="profiles">
+			<p id="profiles_title">Meet the Team</p>
+			<div id="harrison" class="profile">
+				<div class="front"></div> 
+				<div class="back">
+					<div class="profile_container_title">
+						<p class="profile_name">Harrison Katz</p>
+						<p class="profile_position">Mechanical Designer</p>
+					</div>
+					<div class="profile_container_link">
+						<a href="https://www.facebook.com/HZKatz" target="_blank">
+							<span class="icon-facebook icon"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id="alex" class="profile">
+				<div class="front"></div> 
+				<div class="back">
+					<div class="profile_container_title">
+						<p class="profile_name">Alexander Nhan</p>
+						<p class="profile_position">Machine Learning</p>
+					</div>
+					<div class="profile_container_link">
+						<a href="https://github.com/alexnhan" target="_blank">
+							<span class="icon-github icon"></span>
+						</a>
+						<a href="https://www.facebook.com/alex.nhan.7" target="_blank">
+							<span class="icon-facebook icon"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id="freddy" class="profile">
+				<div class="front"></div> 
+				<div class="back">
+					<div class="profile_container_title">
+						<p class="profile_name">Frederick Wachter</p>
+						<p class="profile_position">Software Developer</p>
+					</div>
+					<div class="profile_container_link">
+						<a href="https://github.com/FWachter" target="_blank">
+							<span class="icon-github icon"></span>
+						</a>
+						<a href="https://www.facebook.com/freddywachter" target="_blank">
+							<span class="icon-facebook icon"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id="matt" class="profile">
+				<div class="front"></div> 
+				<div class="back">
+					<div class="profile_container_title">
+						<p class="profile_name">Matthew Wiese</p>
+						<p class="profile_position">Mechanical Designer</p>
+					</div>
+					<div class="profile_container_link">
+						<a href="https://www.facebook.com/MattCWiese" target="_blank">
+							<span class="icon-facebook icon"></span>
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</main>

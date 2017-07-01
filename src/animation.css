@@ -6,7 +6,7 @@ Created: 2016-06-25
 
 body {
 	margin:0px;
-	background-color:rgb(25, 35, 75);
+	background-color:whitesmoke;
 }
 
 /* Classes */
@@ -48,26 +48,26 @@ body {
 
 .logo_words {
 	margin-left:-5px;
-	width:170px;
+	width:190px;
 }
 
 #logo_bracket_left {
-	background:url("img/logo_bracket_left_white.png") no-repeat center center;
+	background:url("img/logo/logo_bracket_left_white.png") no-repeat center center;
     background-size:contain;
 }
 
 #logo_line {
-	background:url("img/logo_line_white.png") no-repeat center center;
+	background:url("img/logo/logo_line_white.png") no-repeat center center;
     background-size:contain;
 }
 
 #logo_bracket_right {
-	background:url("img/logo_bracket_right_white.png") no-repeat center center;
+	background:url("img/logo/logo_bracket_right_white.png") no-repeat center center;
     background-size:contain;
 }
 
 #logo_words {
-	background:url("img/logo_werve_white.png") no-repeat center center;
+	background:url("img/logo/logo_werve_white.png") no-repeat center center;
     background-size:contain;
 }
 
