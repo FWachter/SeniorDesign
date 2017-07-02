@@ -1,7 +1,7 @@
 /*
-Swerve senior design team animation style sheet
+Swerve senior design team member profiles style sheet
 Author: Frederick Wachter - wachterfreddy@gmail.com
-Created: 2016-06-25
+Created: 2016-07-01
 */
 
 @font-face {
@@ -10,9 +10,9 @@ Created: 2016-06-25
 }
 @font-face {
 	font-family:FontAwesome;
-	src: url('font/fontawesome-webfont.eot');
-	src: url('font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), 
-		 url('font/fontawesome-webfont.woff') format('woff');
+	src: url('fonts/fontawesome-webfont.eot');
+	src: url('fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), 
+		 url('fonts/fontawesome-webfont.woff') format('woff');
 	font-weight:normal;
 	font-style:normal;
 }
@@ -32,7 +32,8 @@ Created: 2016-06-25
 
 body {
 	margin:0px;
-	background-color:rgb(25, 35, 75);
+	background-color:black;
+	font-family: TypoSquare_Light;
 }
 div {
 	margin:0px;
@@ -40,7 +41,6 @@ div {
 }
 p {
 	margin:0px;
-	font-family:TypoSquare_Light;
 }
 a {
 	text-decoration:none;
@@ -54,29 +54,38 @@ a {
 	margin:50px 0px;
 	opacity:0.5;
 	cursor:pointer;
+	transition:opacity 0.2s;
+}
+.gray_out {
+	-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: url(grayscale.svg); /* Firefox 4+ */
+    filter: gray; /* IE 6-9 */
+	transition:-webkit-filter 1s, -moz-filter 1s, -ms-filter 1s, -o-filter 1s, filter 1s;
+}
+.title {
+	font-size:60px;
 }
 
 #profiles {
-	margin-top:-10px;
-	padding:20px 0px 20px 0px;
-	position:absolute;
+	padding:20px 0px;
 	width:100%;
-	margin-top:25px;
 	background-color:whitesmoke;
 	text-align:center;
 }
 
 #profiles_title {
 	margin:0;
-	font-size:60px;
-	font-family: TypoSquare_Light;
 }
 
 .profile {
 	margin:10px;
 	height:230px;
 	width:230px;
-	display:inline-block
+	display:inline-block;
+	transition:-webkit-filter 1s, -moz-filter 1s, -ms-filter 1s, -o-filter 1s, filter 1s;
 }
 .profile_container_title {
 	height:190px;
