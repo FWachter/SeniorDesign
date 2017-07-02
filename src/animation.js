@@ -5,7 +5,7 @@ Created: 2016-06-25
 */
 
 $(document).ready(function(){
-    $('html, body').animate( { scrollTop: 0 }, 0 );
+    $('html, body').animate({scrollTop: 0}, 0);
 	animation(); // start animation
 });
 
@@ -36,7 +36,7 @@ function animationStart() {
 	var window_height = $(window).height();
 	var leave_window_adjust = 100;
 
-	$("#logo").addClass("animation");
+	$(".logo").addClass("animation");
 	$("#logo_bracket_left").css({
 		"margin-left": -(window_width/2 + leave_window_adjust) + "px"
 	});
@@ -85,6 +85,7 @@ function animationPart2() {
 }
 
 function animationPart3() {
+	$("#logo").removeClass("center");
 	$("#animation_background").css({
 		"height": "70px",
 		"transition": transition_type
