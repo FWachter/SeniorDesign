@@ -15,7 +15,8 @@ $("#animation_background").css({
 
 
 var transition_type = "all 0.5s ease 0s";
-var animation_no_wait = 500;
+var animation_no_wait = 0;
+var animation_smooth  = 500;
 var animation_wait    = 1000;
 
 function animation() {
@@ -27,8 +28,8 @@ function animation() {
 			setTimeout(function() {
 				animationPart3();
 			}, animation_wait);
-		}, animation_no_wait);
-	}, animation_wait);
+		}, animation_smooth);
+	}, animation_no_wait);
 }
 
 function animationStart() {

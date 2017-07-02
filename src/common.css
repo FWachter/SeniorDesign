@@ -21,10 +21,16 @@ Created: 2016-07-02
 	font-style:normal;
 }
 
+.icon-desktop:before {
+	font-family:FontAwesome;
+	content: "\f108";
+	font-size:34px;
+	color:black;
+}
 .icon-github:before {
 	font-family:FontAwesome;
 	content:"\f09b";
-	font-size:38px;
+	font-size:39px;
 	color:black;
 }
 .icon-facebook:before {
