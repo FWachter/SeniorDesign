@@ -1,21 +1,20 @@
 /*
-Swerve senior design team profiles JavaScript
+Swerve senior design team member profiles JavaScript
 Author: Frederick Wachter - wachterfreddy@gmail.com
-Created: 2016-06-25
+Created: 2016-07-01
 */
 
 $(".profile").flip({
   trigger: 'hover'
 });
 
-$(window).resize(
+$(".profile").hover(
 	function() {
-		windowResize();
+		$(".profile").addClass("gray_out");
+		$(this).removeClass("gray_out");
+	}, function() {
+		$(".profile").removeClass("gray_out");
 	}
 );
-
-function windowResize() {
-
-}
 
 

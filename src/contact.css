@@ -1,0 +1,218 @@
+/*
+Swerve senior design team member contact style sheet
+Author: Frederick Wachter - wachterfreddy@gmail.com
+Created: 2016-07-01
+*/
+
+@font-face {
+	font-family:TypoSquare_Light;
+	src: url("fonts/Typo_Square_Light.otf") format("opentype");
+}
+@font-face {
+	font-family:FontAwesome;
+	src: url(fonts/fontawesome-webfont.eot);
+	src: url(fonts/fontawesome-webfont.eot?#iefix) format('embedded-opentype'), 
+		 url(fonts/fontawesome-webfont.woff) format('woff');
+	font-weight:normal;
+	font-style:normal;
+}
+
+.icon-github-large:before {
+	font-family:FontAwesome;
+	content:"\f09b";
+	font-size:55px;
+	color:black;
+}
+.icon-facebook-large:before {
+	font-family:FontAwesome;
+	content: "\f230";
+	font-size:55px;
+	color:black;
+}
+.icon-mail-large:before {
+	margin-left:2px;
+	font-family:FontAwesome;
+	content: "\f003";
+	font-size:55px;
+	color:black;
+}
+.icon-location-contact:before {
+	margin:3px 0px 0px 10px;
+	font-family:FontAwesome;
+	content: "\f041";
+	font-size:40px;
+	color:white;
+	float:left;
+}
+.icon-mail-contact:before {
+	margin:5px 0px 0px 0px;
+	font-family:FontAwesome;
+	content: "\f003";
+	font-size:40px;
+	color:white;
+	float:left;
+}
+
+body {
+	margin:0px;
+	background-color:black;
+	font-family:TypoSquare_Light;
+}
+p {
+	margin:0px;
+}
+a {
+	text-decoration:none;
+}
+
+.blank {
+	height:200px;
+	width:100%;
+}
+.icon-contact {
+	margin:0px 10px;
+}
+.title {
+	font-size:60px;
+}
+
+#contact {
+	width:100%;
+	background:url(img/drexel_main_building.png) no-repeat center center;
+	background-size:cover;
+	-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    text-align:center;
+}
+#contact_container_title {
+	padding-top:20px;
+	height:80px;
+	width:100%;
+	color:white;
+}
+#contact_container_info {
+	width:80%;
+	display:inline-block;
+
+}
+#contact_container_links {
+	padding-top:30px;
+	height:65px;
+	width:100%;
+	background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0.65), rgba(255,255,255,0));
+}
+#contact_section_info {
+	height:100%;
+	width:50%;
+	float:left;
+	color:whitesmoke;
+}
+#contact_section_form {
+	padding-top:32px;
+	height:100%;
+	width:50%;
+	float:left;
+}
+#contact_section_info_box {
+	margin-top:90px;
+	width:70%;
+	min-width:460px;
+	background-color:black;
+	-webkit-box-shadow:0px -10px 50px 50px #0A0A0A;
+	-moz-box-shadow:0px -10px 50px 50px #0A0A0A;
+	-o-box-shadow:0px -10px 50px 50px #0A0A0A;
+	box-shadow:0px -10px 50px 50px #0A0A0A;
+	display:inline-block;
+	text-align:left;
+}
+#contact_text_container {
+	margin:10px 0px 0px 10px;
+}
+.contact_icon_container {
+	margin:20px 20px 0px 60px;
+}
+.contact_text_container {
+	margin-left:115px;
+	height:40px;
+}
+.contact_icon {
+	height:50px;
+	width:50px;
+	background-color:whitesmoke;
+	float:left;
+}
+
+@media screen and (max-width: 1425px) {
+	#contact_section_info {
+		margin:0px;
+		margin-left:25px;
+		float:none;
+	}
+	#contact_container_info {
+		width:520px;
+	}
+}
+
+/* -------------------- ---- -------------------- */
+/* -------------------- Form -------------------- */
+/* -------------------- ---- -------------------- */
+form {
+    margin:10px auto 10px auto;
+    height:100%;
+    width:520px;
+    text-align:center;
+}
+input, textarea {
+	height:30px;
+	width:472px;
+	margin:5px 1px 5px 0px;
+	padding:4px 0px 4px 48px;
+	border:1px solid black;
+	border-radius:2px;
+	color:rgb(7,41,77);
+	font-size:18px;
+	background-color:whitesmoke;
+}
+textarea {
+	padding:8px 0px 0px 48px;
+	height:90px;
+	resize:none;
+}
+input:focus, textarea:focus {
+	outline:blue solid medium;
+	border-radius:2px;
+}
+
+#user_name_icon {
+	background:whitesmoke url(img/icons/Person.png) no-repeat center center;
+}
+#user_email_icon {
+	background:whitesmoke url(img/icons/Email.png) no-repeat center center;
+}
+#user_message_icon {
+	background:whitesmoke url(img/icons/Message.png) no-repeat center;
+}
+#user_name_icon, #user_email_icon, #user_message_icon {
+	margin:11px 0px 0px 6px;
+	height:28px;
+	width:35px;
+	position:absolute;
+	background-size:contain;
+}
+
+#form_submit {
+	padding:0px;
+	height:40px;
+	width:520px;
+	background:whitesmoke;
+}
+#form_submit:hover {
+	background-color:black;
+	border:1px solid whitesmoke;
+	color:whitesmoke;
+	cursor:pointer;
+}
+
+

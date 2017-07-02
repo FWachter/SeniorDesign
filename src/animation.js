@@ -4,7 +4,15 @@ Author: Frederick Wachter - wachterfreddy@gmail.com
 Created: 2016-06-25
 */
 
-animation(); // start animation
+$(document).ready(function(){
+    $('html, body').animate( { scrollTop: 0 }, 0 );
+	animation(); // start animation
+});
+
+$("#animation_background").css({
+	"height": $(window).height() + 1000 + "px"
+})
+
 
 var transition_type = "all 0.5s ease 0s";
 var animation_no_wait = 500;
@@ -62,24 +70,27 @@ function animationPart1() {
 
 function animationPart2() {
 	$("#logo_bracket_left").css({
-		"margin-left": "-99px"
+		"margin-left": "-104px"
 	});
 	$("#logo_bracket_right").css({
-		"margin-left": "123px"
+		"margin-left": "118px"
 	});
 	$("#logo_line").css({
-		"margin-left": "-83px"
+		"margin-left": "-88px"
 	});
 	$("#logo_words").css({
-		"margin-left": "-53px",
+		"margin-left": "-58px",
 		"width": ""
 	});
 }
 
 function animationPart3() {
-	$("#animation").css({
+	$("#animation_background").css({
 		"height": "70px",
 		"transition": transition_type
+	});
+	$("#animation").css({
+		"height": "70px",
 	});
 	$(".logo").css({
 		"height": "50px"

@@ -6,7 +6,7 @@ Created: 2016-06-25
 
 body {
 	margin:0px;
-	background-color:whitesmoke;
+	background-color:black;
 }
 
 /* Classes */
@@ -19,10 +19,14 @@ body {
 /* Page Background */
 #animation {
 	position:fixed;
-	height:100%;
 	width:100%;
 	background:black;
-	background-size:cover;
+	z-index:2;
+}
+#animation_background {
+	top:0px;
+	height:100vh;
+	width:100%;
 }
 
 /* Logo */
