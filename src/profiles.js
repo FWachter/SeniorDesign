@@ -11,7 +11,6 @@ $(".profile").flip({
 $(".profile").hover(
 	function() {
 		$(".profile").addClass("gray_out");
-		$(this).removeClass("gray_out");
 	}, function() {
 		$(".profile").removeClass("gray_out");
 	}
