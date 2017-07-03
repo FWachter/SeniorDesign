@@ -12,7 +12,6 @@ Created: 2016-07-01
 	margin:50px 0px;
 	opacity:0.5;
 	cursor:pointer;
-	transition:opacity 0.2s;
 }
 .gray_out {
 	-webkit-filter: grayscale(100%);

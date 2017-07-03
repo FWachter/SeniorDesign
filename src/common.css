@@ -21,10 +21,16 @@ Created: 2016-07-02
 	font-style:normal;
 }
 
+.icon-desktop:before {
+	font-family:FontAwesome;
+	content: "\f108";
+	font-size:34px;
+	color:black;
+}
 .icon-github:before {
 	font-family:FontAwesome;
 	content:"\f09b";
-	font-size:38px;
+	font-size:39px;
 	color:black;
 }
 .icon-facebook:before {
@@ -33,7 +39,12 @@ Created: 2016-07-02
 	font-size:38px;
 	color:black;
 }
-
+.icon-linkedin:before {
+	font-family:FontAwesome;
+	content: "\f08c";
+	font-size:38px;
+	color:black;
+}
 .icon-github-large:before {
 	font-family:FontAwesome;
 	content:"\f09b";
@@ -52,19 +63,6 @@ Created: 2016-07-02
 	content: "\f003";
 	font-size:55px;
 	color:black;
-}
-
-/* -----------------
- *  Updated Section
- * -----------------
- */
-#updated {
-	height:18px;
-	width:100%;
-	font-size:12px;
-	color:black;
-	background-color:whitesmoke;
-	text-align:center;
 }
 
 /* ---------------
