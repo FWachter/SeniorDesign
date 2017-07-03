@@ -24,6 +24,9 @@ Created: 2016-07-01
 .icon-contact {
 	margin:0px 10px;
 }
+.icon-contact:hover {
+	opacity:0.5;
+}
 
 /* -----------------
  *  Updated Section
