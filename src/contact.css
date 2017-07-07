@@ -112,6 +112,9 @@ Created: 2016-07-01
 	background-color:whitesmoke;
 	float:left;
 }
+.icon_contact_section {
+	display:inline-block;
+}
 
 @media screen and (max-width: 1425px) {
 	#contact_section_info {
