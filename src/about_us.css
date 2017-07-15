@@ -17,11 +17,6 @@ Created: 2016-07-15
 	background-color:black;
 	color:white;
 }
-.about_container {
-	margin:0px auto;
-	padding:0px 60px;
-	max-width:1200px;
-}
 
 #vision {
 	width:100%;
@@ -37,9 +32,9 @@ Created: 2016-07-15
 	vertical-align:top;
 }
 .standard {
-	margin:5px;
+	margin:2.5px;
 	height:140px;
-	width:210px;
+	width:190px;
 	display:inline-block;
 	vertical-align:top;
 }
