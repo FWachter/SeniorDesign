@@ -88,8 +88,12 @@ function animationPart2() {
 function animationPart3() {
 	$("#logo").removeClass("center");
 	$("#animation_background").css({
-		"height": "70px",
+		"height": "0px",
 		"transition": transition_type
+	});
+	$("#title").css({
+		"opacity": "1",
+		"transition":"opacity 0.5s ease 0.25s"
 	});
 	$("#animation").css({
 		"height": "70px",
