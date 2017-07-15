@@ -122,10 +122,19 @@ a {
 	text-decoration:none;
 }
 
-/* ----------------
- *  Common Classes
- * ----------------
+/* ------------------------
+ *  Common IDs and Classes
+ * ------------------------
  */
+ #updated {
+	height:18px;
+	width:100%;
+	font-size:12px;
+	color:black;
+	background-color:whitesmoke;
+	text-align:center;
+}
+
 .blank {
 	height:200px;
 	width:100%;
@@ -137,9 +146,40 @@ a {
 	text-align:justify;
     text-justify:inter-word;
 }
+.button {
+    padding:5px 10px 5px 10px;
+    text-transform:uppercase;
+    border-radius:2px;
+    display:inline-block;
+    text-align:center;
+    cursor:pointer;
+    font-size:20px;
+    box-shadow:inset 0 0 0 0 gray;
+	-webkit-transition:all ease-out 0.5s;
+	-moz-transition:all ease-out 0.5s;
+	transition:all ease-out 0.5s;
+}
+.button:hover {
+    box-shadow:inset 0 100px 0 0 gray;
+}
+.button_white {
+	color:black;
+    background:whitesmoke;
+    border:1px solid black;
+}
+.button_black {
+    color:white;
+    background:black;
+    border:1px solid whitesmoke;
+}
 .spacer {
 	height:10px;
 	width:100%;
+}
+.section_container {
+	margin:0px auto;
+	padding:0px 60px;
+	max-width:1200px;
 }
 .blur_large {
 	-webkit-box-shadow:0px -10px 50px 50px #0A0A0A;
