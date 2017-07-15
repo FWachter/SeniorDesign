@@ -1,0 +1,18 @@
+/*
+Swerve senior design team about us style sheet
+Author: Frederick Wachter - wachterfreddy@gmail.com
+Created: 2016-07-15
+*/
+
+#partner {
+	padding:30px 0px;
+	width:100%;
+	text-align:center;
+	color:white;
+}
+#partner_button {
+	font-size:25px;
+	padding:5px 15px;
+}
+
+

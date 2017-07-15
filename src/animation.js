@@ -4,8 +4,11 @@ Author: Frederick Wachter - wachterfreddy@gmail.com
 Created: 2016-06-25
 */
 
+$(window).on('beforeunload', function() {
+    $(window).scrollTop(0); 
+});
+
 $(document).ready(function(){
-    $('html, body').animate({scrollTop: 0}, 0);
 	animation(); // start animation
 });
 
@@ -88,8 +91,12 @@ function animationPart2() {
 function animationPart3() {
 	$("#logo").removeClass("center");
 	$("#animation_background").css({
-		"height": "70px",
+		"height": "0px",
 		"transition": transition_type
+	});
+	$("#title").css({
+		"opacity": "1",
+		"transition":"opacity 0.5s ease 0.25s"
 	});
 	$("#animation").css({
 		"height": "70px",
@@ -118,6 +125,7 @@ function animationPart3() {
 		"top": "60px",
 		"width": "0px",
 	});
+	$(window).scrollTop(0); 
 }
 
 function animationEnd() {
