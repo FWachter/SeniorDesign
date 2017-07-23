@@ -85,8 +85,13 @@ Created: 2016-06-25
     background-size:contain;
 }
 #team_title {
-	display: inline-block;
-	background-color:black;
+	display:inline-block;
+	font-weight:bold;
+	text-shadow: #000 2px 2px 10px;
+    -webkit-font-smoothing: antialiased;
+/*	stroke: red;
+	stroke-width:2px;
+	stroke-linejoin: round;*/
 }
 
 /* -------
