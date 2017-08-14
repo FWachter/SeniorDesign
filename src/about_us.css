@@ -38,6 +38,14 @@ Created: 2016-07-15
 	display:inline-block;
 	vertical-align:top;
 }
+.standard:hover {
+    background-color:whitesmoke;
+    cursor:pointer;
+}
+.standard:hover div, .standard:hover p {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
 
 .block_icon_container {
 	margin:5px auto;
@@ -87,9 +95,15 @@ Created: 2016-07-15
 #ada {
 	background:url(img/icons/ADA.png);
 }
+#aisc {
+	background:url(img/icons/AISC.png);
+}
+#aws {
+	background:url(img/icons/AWS.png);
+}
 #ros_enabled, #omni-directional, #open_source, #autonomous, 
 #human_operated, #safety, #ros_guidelines, #google_guidelines, 
-#astm, #ada {
+#astm, #ada, #aisc, #aws {
 	background-size:cover;
 	filter:brightness(0) invert(1);
 }
@@ -97,8 +111,25 @@ Created: 2016-07-15
 #human_operated, #safety {
 	filter:brightness(0);
 }
-#ros_guidelines, #google_guidelines, #astm, #ada {
+#ros_guidelines, #google_guidelines, #astm, #ada, #aws {
 	filter:brightness(0) invert(1);
+}
+#aisc {
+	filter:brightness(1);
+	margin:10px 0px 0px 10px;
+	height:60px;
+	width:60px;
+}
+#aws {
+	margin:12px 0px 0px 12px;
+	height:56px;
+	width:56px;
+
+}
+#ros_guidelines, #ros_enabled {
+	margin:20px 0px 0px 20px;
+	height:40px;
+	width:40px;
 }
 
 

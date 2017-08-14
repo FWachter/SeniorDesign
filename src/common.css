@@ -108,6 +108,7 @@ body {
 	margin:0px;
 	background-color:black;
 	font-family:TypoSquare_Light;
+	font-weight:bold;
 }
 
 div {
@@ -192,6 +193,13 @@ a {
 	-moz-box-shadow:0px 0px 40px 40px #0A0A0A;
 	-o-box-shadow:0px 0px 40px 40px #0A0A0A;
 	box-shadow:0px 0px 40px 40px #0A0A0A;
+}
+.enhance_text {
+	text-shadow: #000 2px 2px 10px;
+    -webkit-font-smoothing: antialiased;
+}
+.bold {
+	font-weight:bold;
 }
 
 
