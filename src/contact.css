@@ -4,11 +4,6 @@ Author: Frederick Wachter - wachterfreddy@gmail.com
 Created: 2016-07-01
 */
 
-a {
-	text-decoration:none;
-	color:inherit;
-}
-
 .icon-location-contact:before {
  	margin:3px 0px 0px 10px;
  	font-family:FontAwesome;
