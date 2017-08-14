@@ -38,6 +38,14 @@ Created: 2016-07-15
 	display:inline-block;
 	vertical-align:top;
 }
+.standard:hover {
+    background-color:whitesmoke;
+    cursor:pointer;
+}
+.standard:hover div, .standard:hover p {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
 
 .block_icon_container {
 	margin:5px auto;
