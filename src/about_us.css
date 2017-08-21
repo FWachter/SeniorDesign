@@ -105,10 +105,20 @@ a div p {
 #aws {
 	background:url(img/icons/AWS.png);
 }
+#doxygen{
+	background:url(img/icons/doxygen.png);
+}
 #ros_enabled, #omni-directional, #open_source, #autonomous, 
 #human_operated, #safety, #ros_guidelines, #google_guidelines, 
 #astm, #ada, #aisc, #aws {
 	background-size:cover;
+	filter:brightness(0) invert(1);
+}
+#doxygen {
+	margin:33px 0px 0px 10px;
+	width:60px;
+	background-size:contain;
+	background-repeat:no-repeat;
 	filter:brightness(0) invert(1);
 }
 #ros_enabled, #omni-directional, #open_source, #autonomous, 
