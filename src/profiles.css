@@ -80,7 +80,13 @@ Created: 2016-07-01
 #matt .front {
 	background:url(img/members/Wiese.jpg) no-repeat center center;
 }
-#harrison .front, #alex .front, #freddy .front, #matt .front {
+#yousuff .front {
+	background:url(img/members/Yousuff.jpg) no-repeat center center;
+}
+#josh .front {
+	background:url(img/members/Geating.jpg) no-repeat center center;
+}
+#harrison .front, #alex .front, #freddy .front, #matt .front, #yousuff .front, #josh .front {
 	background-size:cover;
 }
 
