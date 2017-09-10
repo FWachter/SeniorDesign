@@ -166,7 +166,7 @@ a {
 	margin:0px 20px 20px 0px;
 	float:right;
 	color: black;
-	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	-webkit-text-fill-color: whitesmoke; /* Will override color (regardless of order) */
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
 }

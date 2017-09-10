@@ -11,20 +11,21 @@ $("#up_arrow").css({
 });
 
 $("#up_arrow").click(function(){
-    $(window).scrollTop(0);
+  //$(window).scrollTop(0);
+  $.smoothScroll(0);
 });
 
 $(window).scroll(function (event) {
-    var scroll = $(window).scrollTop();
-    if (scroll > SCROLL_ARROW_SHOW) {
-    	$("#up_arrow").css({
-				"visibility": "visible"
-			});
-    } else {
-    	$("#up_arrow").css({
-				"visibility": "hidden"
-			});
-    }
+  var scroll = $(window).scrollTop();
+  if (scroll > SCROLL_ARROW_SHOW) {
+  	$("#up_arrow").css({
+			"visibility": "visible"
+		});
+  } else {
+  	$("#up_arrow").css({
+			"visibility": "hidden"
+		});
+  }
 });
 
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
