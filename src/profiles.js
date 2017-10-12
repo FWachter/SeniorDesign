@@ -8,12 +8,4 @@ $(".profile").flip({
   trigger: 'hover'
 });
 
-$(".profile").hover(
-	function() {
-		$(".profile").addClass("gray_out");
-	}, function() {
-		$(".profile").removeClass("gray_out");
-	}
-);
-
 

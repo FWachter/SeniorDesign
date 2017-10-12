@@ -15,11 +15,11 @@ Created: 2016-07-01
 }
 .gray_out {
 	-webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: url(grayscale.svg); /* Firefox 4+ */
-    filter: gray; /* IE 6-9 */
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: url(grayscale.svg); /* Firefox 4+ */
+	filter: gray; /* IE 6-9 */
 	transition:-webkit-filter 1s, -moz-filter 1s, -ms-filter 1s, -o-filter 1s, filter 1s;
 }
 
@@ -83,10 +83,14 @@ Created: 2016-07-01
 #yousuff .front {
 	background:url(img/members/Yousuff.jpg) no-repeat center center;
 }
+#tan .front {
+	background:url(img/members/Tan.jpg) no-repeat center center;
+}
 #josh .front {
 	background:url(img/members/Geating.jpg) no-repeat center center;
 }
-#harrison .front, #alex .front, #freddy .front, #matt .front, #yousuff .front, #josh .front {
+#harrison .front, #alex .front, #freddy .front, #matt .front, 
+#yousuff .front, #tan .front, #josh .front {
 	background-size:cover;
 }
 
