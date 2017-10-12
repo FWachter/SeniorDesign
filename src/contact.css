@@ -36,11 +36,8 @@ Created: 2016-07-01
 	width:100%;
 	background:url(img/drexel_main_building.png) no-repeat center center;
 	background-size:cover;
-	-webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    text-align:center;
+	text-align:center;
+	overflow:hidden;
 }
 #contact_container_title {
 	padding-top:45px;
@@ -53,11 +50,10 @@ Created: 2016-07-01
 	display:inline-block;
 
 }
-#contact_container_links {
-	padding-top:20px;
-	height:60px;
+#contact_fade {
+	height:40px;
 	width:100%;
-	background: linear-gradient(to top, rgba(245,245,245,1), rgba(245,245,245,0.65), rgba(245,245,245,0));
+	background: linear-gradient(to top, rgba(245,245,245,1), rgba(245,245,245,0.80), rgba(245,245,245,0));
 }
 #contact_section_info {
 	height:100%;
@@ -88,14 +84,38 @@ Created: 2016-07-01
 	margin-left:75px;
 	height:40px;
 }
-.contact_icon {
+
+#target {
+	margin:45px 5px;
 	height:50px;
 	width:50px;
-	background-color:whitesmoke;
-	float:left;
-}
-.icon_contact_section {
+	background-color:blue;
 	display:inline-block;
+}
+#footer_icon_github {
+	background:url(img/icons/Github.png) no-repeat center;
+}
+#footer_icon_facebook {
+	background:url(img/icons/Facebook_black.png) no-repeat center;
+}
+#footer_icon_instagram {
+	background:url(img/icons/Instagram.png) no-repeat center;
+}
+#footer_icon_twitter {
+	background:url(img/icons/Twitter.png) no-repeat center;
+}
+#footer_icon_email {
+	background:url(img/icons/Email.png) no-repeat center;
+}
+#footer_icon_github, #footer_icon_facebook, #footer_icon_instagram, 
+#footer_icon_twitter, #footer_icon_email {
+	margin:5px;
+	height:50px;
+	width:50px;
+	display:inline-block;
+	background-size:contain;
+	-webkit-filter:invert(0.9);
+	filter:invert(0.9);
 }
 
 @media screen and (max-width: 1425px) {
