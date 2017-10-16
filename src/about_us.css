@@ -88,8 +88,8 @@ a div p {
 #safety {
 	background:url(img/icons/safety.png);
 }
-#ros_guidelines {
-	background:url(img/icons/ROS.png);
+#asme {
+	background:url(img/icons/ASME.png);
 }
 #google_guidelines {
 	background:url(img/icons/Google.png);
@@ -110,10 +110,15 @@ a div p {
 	background:url(img/icons/doxygen.png);
 }
 #ros_enabled, #omni-directional, #open_source, #autonomous, 
-#human_operated, #safety, #ros_guidelines, #google_guidelines, 
+#human_operated, #safety, #asme, #google_guidelines, 
 #astm, #ada, #aisc, #aws {
 	background-size:cover;
 	filter:brightness(0) invert(1);
+}
+#asme {
+	margin-top:30px;
+	background-size:contain;
+	background-repeat:no-repeat;
 }
 #doxygen {
 	margin:33px 0px 0px 10px;
@@ -126,7 +131,7 @@ a div p {
 #human_operated, #safety {
 	filter:brightness(0);
 }
-#ros_guidelines, #google_guidelines, #astm, #ada, #aws {
+#google_guidelines, #astm, #ada, #aws {
 	filter:brightness(0) invert(1);
 }
 #aisc {
