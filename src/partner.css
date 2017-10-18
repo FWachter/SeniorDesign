@@ -15,4 +15,23 @@ Created: 2016-07-15
 	padding:5px 15px;
 }
 
+#logo_section {
+	margin:20px;
+	width:100%;
+	text-align:center;
+}
+
+.sponsor_logo {
+	height:100px;
+	width:100px;
+	display:inline-block;
+}
+#sick {
+	width:250px;
+	background:url(img/sponsors/SICK_logo.png) no-repeat center center;
+}
+#sick {
+	background-size:contain;
+}
+
 
