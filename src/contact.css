@@ -153,10 +153,10 @@ Created: 2016-07-01
  * -------------- 
  */
 form {
-    margin:10px auto 10px auto;
-    height:100%;
-    width:520px;
-    text-align:center;
+  margin:10px auto 10px auto;
+  height:100%;
+  width:520px;
+  text-align:center;
 }
 input, textarea {
 	height:30px;
