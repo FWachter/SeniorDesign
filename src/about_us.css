@@ -94,6 +94,9 @@ a div p {
 #google_guidelines {
 	background:url(img/icons/Google.png);
 }
+#ros_guidelines {
+	background:url(img/icons/ROS.png);
+}
 #astm {
 	background:url(img/icons/ASTM.png);
 }
@@ -111,7 +114,7 @@ a div p {
 }
 #ros_enabled, #omni-directional, #open_source, #autonomous, 
 #human_operated, #safety, #asme, #google_guidelines, 
-#astm, #ada, #aisc, #aws {
+#ros_guidelines, #astm, #ada, #aisc, #aws {
 	background-size:cover;
 	filter:brightness(0) invert(1);
 }

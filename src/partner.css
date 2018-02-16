@@ -30,7 +30,19 @@ Created: 2016-07-15
 	width:250px;
 	background:url(img/sponsors/SICK_logo.png) no-repeat center center;
 }
-#sick {
+#nextfab {
+	width:250px;
+	background:url(img/sponsors/NEXTFab_logo.png) no-repeat center center;
+}
+#asme_philly {
+	width:250px;
+	background:url(img/sponsors/ASMEPhilly_logo.png) no-repeat center center;
+}
+#mem {
+	width:250px;
+	background:url(img/sponsors/DrexelMEM_logo.png) no-repeat center center;
+}
+#sick, #nextfab, #asme_philly, #mem {
 	background-size:contain;
 }
 
