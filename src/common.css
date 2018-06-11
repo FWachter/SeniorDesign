@@ -131,6 +131,8 @@ body {
 	background-color:black;
 	font-family:TypoSquare_Light;
 	font-weight:bold;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 div {
 	margin:0px;

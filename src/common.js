@@ -15,6 +15,14 @@ $("#up_arrow").click(function(){
   $.smoothScroll(0);
 });
 
+setTimeout(function() {
+  titleResize();
+}, 1000);
+
+$(window).resize(function() {
+  titleResize();
+});
+
 $(window).scroll(function (event) {
   var scroll = $(window).scrollTop();
   if (scroll > SCROLL_ARROW_SHOW) {
@@ -27,6 +35,16 @@ $(window).scroll(function (event) {
 		});
   }
 });
+
+function titleResize() {
+  var video_width = $(window).width() + 20;
+  $("#title_video").css({
+    "width": video_width + "px"
+  });
+  $("#title").css({
+    "height": $("#title_video").height() + 70 + "px"
+  });
+};
 
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
