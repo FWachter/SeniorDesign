@@ -38,11 +38,24 @@ Created: 2016-07-15
 	width:250px;
 	background:url(img/sponsors/ASMEPhilly_logo.png) no-repeat center center;
 }
+#tamg {
+	width:250px;
+	background:url(img/sponsors/TAMG_logo.png) no-repeat center center;
+	-webkit-filter:invert(50%) brightness(8);
+	-moz-filter:invert(50%) brightness(8);
+	-o-filter:invert(50%) brightness(8);
+	filter:invert(50%) brightness(8);
+
+}
+#ace {
+	width:250px;
+	background:url(img/sponsors/ACE_logo.png) no-repeat center center;
+}
 #mem {
 	width:250px;
 	background:url(img/sponsors/DrexelMEM_logo.png) no-repeat center center;
 }
-#sick, #nextfab, #asme_philly, #mem {
+#sick, #nextfab, #asme_philly, #tamg, #ace, #mem {
 	background-size:contain;
 }
 
