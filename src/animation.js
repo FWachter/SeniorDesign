@@ -14,8 +14,9 @@ $(document).ready(function(){
 
 $("#animation_background").css({
 	"height": $(window).height() + 1000 + "px"
-})
+});
 
+var video = document.getElementById("myVideo");
 
 var transition_type = "all 0.5s ease 0s";
 var animation_no_wait = 0;
