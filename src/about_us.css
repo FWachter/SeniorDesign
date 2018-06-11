@@ -130,13 +130,6 @@ a div p {
 	background-repeat:no-repeat;
 	filter:brightness(0) invert(1);
 }
-#ros_enabled, #omni-directional, #open_source, #autonomous, 
-#human_operated, #safety {
-	filter:brightness(0);
-}
-#google_guidelines, #astm, #ada, #aws {
-	filter:brightness(0) invert(1);
-}
 #aisc {
 	filter:brightness(1);
 	margin:10px 0px 0px 10px;
