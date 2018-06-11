@@ -1,5 +1,5 @@
 # Swerve Robotic Systems Website
 
-[Link to website](SwerveRoboticSystems.github.io)
+[Link to website](https://SwerveRoboticSystems.github.io)
 
 
