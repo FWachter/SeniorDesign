@@ -71,17 +71,38 @@ Created: 2016-07-02
 	font-size:38px;
 	color:black;
 }
-.icon-instagram:before {
-	font-family:FontAwesome;
-	content: "\f16d";
-	font-size:38px;
-	color:black;
-}
 .icon-twitter:before {
 	font-family:FontAwesome;
 	content: "\f099";
 	font-size:38px;
-	color:black;
+	color:rgb(225,225,224);
+}
+.icon-instagram:before {
+	position:relative;
+	top:3px;
+	margin:30px 10px 0px 10px;
+	font-family:FontAwesome;
+	content: "\f16d";
+	font-size:52px;
+	color:rgb(225,225,224);
+}
+.icon-document:before {
+	position:relative;
+	margin:30px 10px 0px 10px;
+	font-family:FontAwesome;
+	content: "\f15c";
+	font-style:normal;
+	font-size:45px;
+	color:rgb(225,225,224);
+}
+.icon-youtube:before {
+	position:relative;
+	margin:30px 10px 0px 10px;
+	font-family:FontAwesome;
+	content: "\f167";
+	font-style:normal;
+	font-size:45px;
+	color:rgb(225,225,224);
 }
 .icon-github-large:before {
 	font-family:FontAwesome;
@@ -244,6 +265,33 @@ br {
 }
 .hover:hover {
 	opacity:0.75;
+}
+
+
+#footer_icon_github {
+	background:url(img/icons/Github.png) no-repeat center;
+}
+#footer_icon_facebook {
+	background:url(img/icons/Facebook_black.png) no-repeat center;
+}
+#footer_icon_instagram {
+	background:url(img/icons/Instagram.png) no-repeat center;
+}
+#footer_icon_twitter {
+	background:url(img/icons/Twitter.png) no-repeat center;
+}
+#footer_icon_email {
+	background:url(img/icons/Email.png) no-repeat center;
+}
+#footer_icon_github, #footer_icon_facebook, #footer_icon_instagram, 
+#footer_icon_twitter, #footer_icon_email {
+	margin:5px;
+	height:50px;
+	width:50px;
+	display:inline-block;
+	background-size:contain;
+	-webkit-filter:invert(0.9);
+	filter:invert(0.9);
 }
 
 
